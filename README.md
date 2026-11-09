@@ -13,7 +13,11 @@ Follow these steps to set up and run the project locally.
    ```bash
    pip install -r requirements.txt
    ```
-3. **Start** the development server:
+3. **Environment**
+    ```bash
+    export GEMINI_API_KEY="..."
+    ```
+4. **Start** the development server:
    ```bash
    python manage.py runserver
    ```
